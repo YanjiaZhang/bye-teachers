@@ -6,4 +6,4 @@
 ## 许可证 License
 本作品使用[**GNU General Public License v3.0许可证**](https://github.com/YanjiaZhang/bye-teachers/blob/master/LICENSE)。
 
-This work is using the [**GNU General Public License v3.0**](https://github.com/YanjiaZhang/bye-teachers/blob/master/LICENSE).
+This work is licensed under the [**GNU General Public License v3.0**](https://github.com/YanjiaZhang/bye-teachers/blob/master/LICENSE).
