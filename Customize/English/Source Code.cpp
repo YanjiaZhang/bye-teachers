@@ -1,8 +1,8 @@
 /*
 	Hi Developers:
-	Here is the template of the "bye-techers" programme.
+	Here is the template of the "bye-teachers" programme.
 	I've got what you have to finish commented.
-	Version:1.3 
+	Version:1.4 
 */
 #include <iostream>
 using namespace std;
@@ -166,26 +166,27 @@ int choose()
 //Main function
 int main()
 {
-	//Login with password (Trying to realize...)
-/*  string password;
+	//Login with password
+	string password;
 	do
 	{
 	    cout<<"Input Password:"<<ends;
 	    cin>>password;
-	    if(password=="Break The Law")
+	    if(password=="/*Password*/")
+	    //Watch out! The password must be less than 8 bytes,
+		//otherwise the programme won't run as you wish.
+		//(Because the size of string is 8 bytes.) 
 	    {
-*/ 
 			choose();
-/*		}
+		}
 	    else
 	    {
-	    	cout<<"You love techers. Exiting..."<<endl;
+	    	cout<<"You love teachers. Exiting..."<<endl;
 			system("pause");
 			system("exit");
 			break;
 		}
 	}
-    while(password!="Break The Law");
-*/ 
+    while(password!="/*Password*/);
 	return 0;
 }

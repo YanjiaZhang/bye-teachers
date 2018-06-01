@@ -2,7 +2,7 @@
 	各位程序猿们：
 	这里是鄙人编写的老师再见程序的模板，
 	其中注释部分是要填写的部分。
-	Version:1.3 
+	Version:1.4
 */
 #include <iostream>
 using namespace std;
@@ -169,17 +169,17 @@ int choose()
 //主程序 
 int main()
 {
-	//密码登录（研发中……） 
-/*  string password;
+	//密码登录
+	string password;
 	do
 	{
 	    cout<<"请输入密码："<<ends;
 	    cin>>password;
-	    if(password=="Break The Law")
+	    if(password=="/*密码*/")
+		//注意：密码必须小于8个字节，否则会报错（因为string的大小是8字节） 
 	    {
-*/ 
 			choose();
-/*		}
+		}
 	    else
 	    {
 	    	cout<<"你爱老师，自动退出……"<<endl;
@@ -188,7 +188,6 @@ int main()
 			break;
 		}
 	}
-    while(password!="Break The Law");
-*/ 
+    while(password!="/*密码*/");
 	return 0;
 }
